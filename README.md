@@ -15,17 +15,17 @@ clocks tick.
 Use CSS transform rotation to rotate the hands of the
 clock.
 
-```css
+
 #myElement {
   transform: rotate(45deg);
 }
-```
+
 
 Change CSS values in JavaScript by getting reference
 to them through the DOM and setting a new value to
 their CSS properties:
 
-```js
+
 var degrees = 45;
 
 var el = document.getElementById("myElement");
